@@ -1,0 +1,33 @@
+
+======path
+
+
+cd /usr/local/hadoop
+
+
+====start hadoop
+
+bin/start-all.sh
+
+
+======hipi bubdle creation
+
+
+root@yogesh-Aspire-5740:/usr/local/hadoop#bin/hadoop jar /root/Downloads/hipi-dev/examples/downloader.jar /user/hduser/input.txt /user/hduser/outputdata/out100.hib 1
+
+========hadoop execution
+
+root@yogesh-Aspire-5740:/usr/local/hadoop# bin/hadoop jar /root/Downloads/hipi-dev/experiments/iris.jar /user/hduser/inputdata/output20000.hib /user/hduser/outputdata/res123 /root/Desktop/iris25.jpeg
+
+
+=====namenod
+
+http://localhost:50070/dfshealth.jsp
+
+====jobtracker
+
+http://localhost:50030/jobtracker.jsp
+
+====tarktracker
+
+http://localhost:50060/tasktracker.jsp
